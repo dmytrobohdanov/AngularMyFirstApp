@@ -1,0 +1,56 @@
+{
+  "configVersion": 1,
+  "index": "/AngularMyFirstApp/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/AngularMyFirstApp/favicon.ico",
+        "/AngularMyFirstApp/index.html",
+        "/AngularMyFirstApp/inline.901cff70acf688488e4f.bundle.js",
+        "/AngularMyFirstApp/main.e5e242158d81cc80f883.bundle.js",
+        "/AngularMyFirstApp/polyfills.ad37cd45a71cb38eee76.bundle.js",
+        "/AngularMyFirstApp/styles.250f31db2583ba2bead7.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/AngularMyFirstApp/assets/cat-icon-128.png",
+        "/AngularMyFirstApp/assets/cat-icon-152.png",
+        "/AngularMyFirstApp/assets/cat-icon-256.png",
+        "/AngularMyFirstApp/assets/cat-icon-512.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-performance",
+      "patterns": [
+        "https:\\/\\/cataas\\.com\\/cat\\/"
+      ],
+      "strategy": "performance",
+      "maxSize": 100,
+      "maxAge": 259200000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/AngularMyFirstApp/inline.901cff70acf688488e4f.bundle.js": "4579a8117989b781712ff0e505c377fe72f18b4d",
+    "/AngularMyFirstApp/assets/cat-icon-128.png": "83984905b5bdf8813891032fca7053e3ee5ef97f",
+    "/AngularMyFirstApp/main.e5e242158d81cc80f883.bundle.js": "d28daffd9bcb004334d60e9467155015ac9f99dc",
+    "/AngularMyFirstApp/assets/cat-icon-152.png": "1d8c1fef77b40b8e77fa0d18bac9a3d0a73adc53",
+    "/AngularMyFirstApp/polyfills.ad37cd45a71cb38eee76.bundle.js": "e74e95af4f1c82ce8cd07c3793477c67342510d8",
+    "/AngularMyFirstApp/assets/cat-icon-256.png": "da9152e763ec009a28aa7907eafc76e5d8726705",
+    "/AngularMyFirstApp/styles.250f31db2583ba2bead7.bundle.css": "e7defd76cf01a0517eec2214e43b75b55347f5e3",
+    "/AngularMyFirstApp/assets/cat-icon-512.png": "87be32e1b4036025eaf1176adf4c77f39ccd0423",
+    "/AngularMyFirstApp/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/AngularMyFirstApp/index.html": "a786ad0f1d5ba6743913e9f05eac1deed896d2be"
+  }
+}
